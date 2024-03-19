@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 99.5vw;
+}
+
+body {
+    background-color: #1A1A1A;
+}
+
+/* Header */
+header {
+    background-color: #ff4403;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+header > a {
+    padding: 5px;
+    background-color: #1a1a1a1f;
+    border-radius: 50%;
+}
+
+header > a > img {
+    height: 80px;
+    width: 80px;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 9vh;
+}
+
+header > div > input {
+    background-image: url(../images/header/lupa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #fff;
+    color: #1a1a1a;
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+header > div > a > img {
+    height: 40px;
+}
+
+header > div > img:hover {
+    cursor: pointer;
+}
+
+header > ul > li {
+    list-style-type: none;
+    display: inline;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+header > ul > li:hover {
+    cursor: pointer;
+} 
+
+header > ul > li a {
+    color: #fff;
+}
+
+header > ul > li span.material-symbols-outlined {
+    margin-right: 10px;
+    font-size: 30px;
+    color: #fafafa
+}
+
+/* Navigation */
+nav {
+    background-color: #fff;
+    padding: 10px;
+    width: 100%;
+    list-style-type: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.233);
+}
+
+nav > ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav > ul > a > li {
+    display: inline;
+    font-weight: bold;
+}
+
+nav > ul > a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav > ul > a:hover {
+    color: #ff4403;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #fff;
+    padding: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.233);;
+}
+
+footer > div > ul > a > li {
+    list-style-type: none;
+    color: #646464;
+}
+
+footer > div > ul > a > li, h1 {
+    margin-bottom: 20px;
+}
+
+footer > div h1 {
+    font-size: 1em;
+}
+
+footer > div > ul > a {
+    text-decoration: none;
+}
+
+footer > div > ul > a > li:hover {
+    color: #000;
+}

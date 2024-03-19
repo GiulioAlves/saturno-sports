@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    background-color: #fff;
+}
+
+main {
+    padding: 40px 0;
+}
+
+div.product-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+div.product-container > div.produto {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    height: 400px;
+    width: 300px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+div.produto:hover {
+    scale: 1.03;
+}
+
+div.produto img {
+    width: 90%;
+    height: 70%;
+}
+
+div.produto p.name {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+div.produto p.preco {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
