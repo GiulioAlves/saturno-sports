@@ -16,7 +16,7 @@ main {
 }
 
 .product-box {
-    padding: 10px;
+    padding: 16px;
     border: 1px solid #999;
     border-radius: 5px;
     height: 400px;
@@ -30,18 +30,35 @@ main {
 }
 
 .product-box img {
-    width: 90%;
-    height: 70%;
+    width: 80%;
+    height: 100%;
+}
+
+.image {
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .name {
     font-size: 1.3em;
-    font-weight: bold;
-    margin: 5px 0;
+    margin: 30px 0;
 }
 
 .price {
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 2em;
     margin-bottom: 5px;
+}
+
+.colors {
+    display: inline-block;
+    color: #555;
+    text-align: center;
+    padding: 4px 6px;
+    font-weight: bold;
+    border: 1px solid #555;
+    border-radius: 3px;
+    margin-top: 20px;
 }
