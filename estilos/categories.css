@@ -8,14 +8,14 @@ main {
     padding: 40px 0;
 }
 
-div.product-container {
+.product-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-div.product-container > div.produto {
+.product-box {
     padding: 10px;
     border: 1px solid #999;
     border-radius: 5px;
@@ -25,22 +25,22 @@ div.product-container > div.produto {
     transition: 0.3s;
 }
 
-div.produto:hover {
+.product-box:hover {
     scale: 1.03;
 }
 
-div.produto img {
+.product-box img {
     width: 90%;
     height: 70%;
 }
 
-div.produto p.name {
+.name {
     font-size: 1.3em;
     font-weight: bold;
     margin: 5px 0;
 }
 
-div.produto p.preco {
+.price {
     font-weight: bold;
     font-size: 1.3em;
     margin-bottom: 5px;
